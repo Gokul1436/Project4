@@ -1,0 +1,284 @@
+ /* about */
+.about{
+    justify-content: center;
+    text-align: center;
+}
+.col33{
+    background-color: whitesmoke;
+    width: 340px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px  gray;
+    margin: 20px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-left: -15px;
+}
+.btn-diagonal-slide{
+    width: 70px;
+    height: 60px;
+    border: none;
+    border-radius: 100%;
+    background-color: red;
+    margin: 10px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+.btn-diagonal-slide::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: rotate(45deg);
+    transition: transform 0.5s ease;
+  }
+  
+  .btn-diagonal-slide:hover::before {
+    transform: rotate(45deg) translate(50%, 50%);
+  }
+.head-icon{
+    color: red;
+    font-weight: 800;
+}
+/* class */
+.col1{
+   
+    height:340px;
+    width:672px;
+    background-image: url('src/assets/bodybuilding.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   justify-items: center;
+    
+    opacity: 0.5;
+}
+
+.col1:hover{
+    opacity: 1;
+}
+.col2:hover{
+    opacity: 1;
+}
+.col3:hover{
+    opacity: 1;
+
+}
+.col4:hover{
+    opacity: 1;
+}
+.col2{
+ 
+    background-image: url(src/assets/cardio.jpg);
+    height:340px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.col3{
+    
+    background-image: url(src/assets/fitness.jpg);
+    height:340px;
+    width:672px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: -60px;
+}
+.col4{
+    background-image: url(src/assets/crossfit.jpg);
+    height:340px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: -60px;
+}
+.class-head{
+    color: red;
+    padding-top: 90px;
+    font-weight: 700;
+}
+.class-para{
+    color: white;
+}
+.class-btn{
+    
+    
+    background-color: red;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+ 
+  overflow: hidden;
+
+
+}
+
+
+.class-btn:hover{
+    background-color: black;
+    border: none;
+    animation: colorChange 1s forwards;
+
+}
+@keyframes colorChange {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+
+/* team */
+.team-head{
+    text-align: center;
+    margin: 20px;   
+}
+
+.card-out{
+    width: 600px ;
+    height: 700px;
+    padding-top: -100px
+}
+.out1{
+    margin-left:50px;
+}
+.out2{
+    margin-left: 200px;
+}
+.out3{
+    margin-left: 350px;
+}
+.out4{
+    margin-left: 500px;
+}
+.c{
+    color: black;
+   background-color: yellow;
+}
+
+
+/* price */
+.fd{
+    padding: 0;
+}
+.price{
+    background-image: url(src/assets/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 640px;
+  
+
+}
+
+.price-card{
+    background: transparent;
+    color: white;
+    border-width: 2px;
+    border-color: red;
+    
+    
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.br{
+    border: 3px soild red;
+}
+.pay-header-btn{
+    
+    background-color: red;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+ 
+  overflow: hidden;
+}
+
+.pay-header-btn:hover{
+    background-color: black;
+    border: none;
+    animation: colorChange 1s forwards;
+
+}
+@keyframes colorChange {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.member{
+    justify-content: center;
+   text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+
+/* blog */
+
+
+.blog{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+
+
+
+/* conduct */
+.loff{
+    margin-left: 70px;
+    width: 200px ;
+}
+
+
+.hr{
+    margin-left: 300px;
+    margin-right: 300px
+}

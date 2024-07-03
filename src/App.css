@@ -1,0 +1,66 @@
+.main{
+  width: 1350px;
+  height: 600px;
+  background-color: beige;
+  background-image:url(/src/assets/bg.png) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+.success{
+  font-size: 90px;
+  color: white;
+  font-weight: 800;
+  padding-top: 100px;
+  padding-left:700px;
+}
+.head-para{
+  color: white;
+ 
+  padding-top: 10px;
+  padding-left:700px;
+
+}
+.head-spam{
+  color: red;
+}
+ 
+
+.header-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 600px;
+    margin-left: 720px;
+    background-color: red;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+ 
+  overflow: hidden;
+
+}
+.header-btn:hover{
+    background-color: black;
+    border: none;
+    animation: colorChange 1s forwards;
+
+}
+@keyframes colorChange {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.header-spam{
+    color: rgb(255, 5, 5);
+ 
+   
+}
